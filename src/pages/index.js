@@ -1,9 +1,8 @@
 import React from "react"
 import Seo from "../sections/Seo"
-import Layout from "../shared/layout"
+import Layout from "../shared/Layout"
 import Header from "../sections/Header"
 import Summary from "../sections/Summary"
-import Education from "../sections/Education"
 import Experience from "../sections/Experience"
 import Projects from "../sections/Projects"
 import Skills from "../sections/Skills"
@@ -14,7 +13,6 @@ const IndexPage = () => (
     <Seo />
     <Header />
     <Summary />
-    <Education />
     <Experience />
     <Projects />
     <Skills />

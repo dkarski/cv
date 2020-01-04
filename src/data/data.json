@@ -1,78 +1,185 @@
 {
   "header": {
-    "name": "YOUR NAME",
-    "position": "Your Job Title",
-    "location": "your location",
-    "email": "youremail@example.com",
-    "phone": "your-phone-num",
-    "facebookUrl": "https://facebook.com/your-facebook",
-    "linkedinUrl": "https://linkedin.com/in/your-linkedin",
-    "stackoverflowUrl": "https://stackoverflow.com/users/XXXXXXX/your-stackoverflow",
-    "githubUrl": "https://github.com/your-github"
+    "name": "Daniel Karski",
+    "position": "Front-end developer",
+    "location": "Warsaw, Poland",
+    "email": "daniel.karski5q@gmail.com",
+    "location": "Warsaw, Poland",
+    "phone": "797393110",
+    "webistes": [
+      {
+        "icon": "icon-facebook2",
+        "url": "https://facebook.com/daniel.karski.5"
+      },
+      {
+        "icon": "icon-linkedin",
+        "url": "https://linkedin.com/in/daniel-karski"
+      },
+      {
+        "icon": "icon-stackoverflow",
+        "url": "https://stackoverflow.com/users/6519913/daniel-karski"
+      },
+      {
+        "icon": "icon-github",
+        "url": "https://github.com/dkarski"
+      }
+    ]
   },
-  "summary": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-  "educations": [
-    {
-      "title": "Your First University",
-      "date": "Jul 2011 - Dec 2012 | Consectetur adipiscing elit",
-      "description": "Lorem ipsum dolor sit amet."
-    },
-    {
-      "title": "Your Second University",
-      "date": "Aug 2007 - Jun 2011 | Ut enim ad minim veniam",
-      "description": "Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
-    }
-  ],
+  "summary": "My biggest passion is programming. The best experience that I have gained was in application web development. I have decided to escalate my knowledge in the Javascript area. The reason why I have chosen it is that solving business problems by way of this gives me satisfaction.",
   "experiences": [
     {
-      "title": "Job Title 1",
-      "date": "Apr 2016 - Now | Your 1st, Inc.",
+      "title": "Front-end Developer Polidea",
+      "date": "04.2019",
       "roles": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-        "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris"
+        "Provided a content management system to Polidea website",
+        "Mostly application development with the use of React",
+        "Creation of creation query form by use ohmlang Parser"
       ]
     },
     {
-      "title": "Job Title 2",
-      "date": "Apr 2013 - Mar 2016 | Your 2nd, Inc.",
+      "title": "Front-end Developer Connectmedica",
+      "date": "06.2017 - 02.2019",
       "roles": [
-        "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum",
-        "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia"
+        "Mostly application development with the use of Angular, WebSocket, GraphQL, ngrx",
+        "Creation of interactive canvas map with the use of Konva.js library",
+        "Creation of video call application with a use of Opentok (WebRTC)",
+        "Recruitment of developers"
       ]
     },
     {
-      "title": "Job Title 3",
-      "date": "Dec 2011 - Mar 2012 | Your 3rd Co, Ltd.",
+      "title": "Front-end Developer Lingaro",
+      "date": "08.2016 - 03.2017",
       "roles": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Application development with a use of TypeScript, Angular, Ionic, Cordova"
+      ]
+    },
+    {
+      "title": "Front-end Developer Kodarnia",
+      "date": "04.2016 – 07.2016",
+      "roles": [
+        "Plugin and library development with a use of JS, jQuery",
+        "Creation of landpage websites with a use of SCSS, JS, HTML"
       ]
     }
   ],
   "projects": [
     {
-      "title": "Project Name 1",
-      "role": "Contributor",
-      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "title": "Luck",
+      "role": "CEO, Full Stack Developer",
+      "description": "The application to help to match each other in the group to give gifts for between your friends on St. Nicholas’ Day. Developed project from every side: frontend, backend, architecture, CI, deploy. After that,  responsibility for marketing and consulting in the design process. The project was started to determined to broaden horizons so it’s a reason why I decided to don’t used a popular framework to generate API or ready solutions do deploy.",
+      "webistes": [
+        {
+          "icon": "icon-earth",
+          "url": "https://luck.org.pl"
+        },
+        {
+          "icon": "icon-facebook2",
+          "url": "https://facebook.com/app.luck"
+        },
+        {
+          "icon": "icon-github",
+          "url": "https://github.com/luck-js"
+        }
+      ],
+      "subprojects": [
+        {
+          "title": "API",
+          "description": "API built with Node.js, Express, MongoDB that follows DDD + Clean Architecture principles. I assumed to create a model from writing unit tests.",
+          "webistes": [
+            {
+              "icon": "icon-github",
+              "url": "https://github.com/luck-js/luck-api"
+            }
+          ]
+        },
+        {
+          "title": "React UI",
+          "description": "Second version a UI written already with the use of Next.js with Typescript. The new version in addition to the new UI provided has been expanded to include a blog. Movement from SPA to server-side rendering helps website SEO.",
+          "webistes": [
+            {
+              "icon": "icon-github",
+              "url": "https://github.com/luck-js/luck-ui-landing-page"
+            }
+          ]
+        },
+        {
+          "title": "Angular UI",
+          "description": "First version UI wrote in the technology I know - Angular. Fastly UI developed was helps me to focus on understand tools and methodologies in the backend-side and deploy.",
+          "webistes": [
+            {
+              "icon": "icon-github",
+              "url": "https://github.com/luck-js/luck-ui"
+            }
+          ]
+        },
+        {
+          "title": "Strapi CMS",
+          "description": "In the last time, a new area was discovered by me in the Javascript environment - CMS. I provided for the blog in the Luck content management system to easier manage and create content. I used the headless strapi library for this.",
+          "webistes": [
+            {
+              "icon": "icon-github",
+              "url": "https://github.com/luck-js/luck-cms"
+            }
+          ]
+        }
+      ]
     },
     {
-      "title": "Project Name 2",
-      "role": "Creator and maintainer",
-      "description": "TDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "title": "Pokédex",
+      "role": "Front Developer",
+      "description": "The recruitment task realized in Angular technology. In addition to technical skills, you can see the thought-out user interface and the was proposed unique design for a particular domain.",
+      "webistes": [
+        {
+          "icon": "icon-earth",
+          "url": "https://dkarski.github.io/poke-ui"
+        },
+        {
+          "icon": "icon-github",
+          "url": "https://github.com/dkarski/poke-ui"
+        }
+      ],
+      "subprojects": []
+    },
+    {
+      "title": "Github Search",
+      "role": "Front Developer",
+      "description": "Recruitment Task. Like in the previous project this one was realized in Angular technology. UI and its functionalities were proposed by me.",
+      "webistes": [
+        {
+          "icon": "icon-earth",
+          "url": "https://dkarski.github.io/github-search"
+        },
+        {
+          "icon": "icon-github",
+          "url": "https://github.com/dkarski/github-search"
+        }
+      ],
+      "subprojects": []
     }
   ],
-  "skillGroups": [
-    {
-      "groupName": "Skill Group 1",
-      "skills": "Lorem, Ipsum, Dolor, Sit, Amet"
-    },
-    {
-      "groupName": "Skill Group 2",
-      "skills": "Consectetur, Adipiscing, Elit"
-    },
-    {
-      "groupName": "Skill Group 3",
-      "skills": "Sed do, Eiusmod, Tempor, Incididunt"
-    }
-  ]
+  "skillGroups": {
+    "workingKnowledge": [
+      "javascript / ES7, typescript",
+      "angular, react, next.js, gatsby",
+      "graphql, axios",
+      "rxjs, lodash",
+      "redux, ngrx",
+      "strapi CMS",
+      "canvas, konva.js",
+      "ohmlang - js parser",
+      "webpack, rollup, grunt",
+      "angular material, react material-ui",
+      "sccs, styled-components, styled-systems",
+      "storybook"
+    ],
+    "basicKnowledge": [
+      "jQuery",
+      "angularjs",
+      "React Native, Ionic, Cordova",
+      "nginx",
+      "jenkins, gitlab, travis",
+      "docker",
+      "Node, Express, Mongoose"
+    ]
+  }
 }

@@ -2,8 +2,8 @@ import React from "react"
 import { Helmet } from "react-helmet"
 import { useStaticQuery } from "gatsby"
 
-const title = "Minimal Resume Theme"
-const description = "Gatsby.js & Styled Components - Minimal Resume Theme"
+const title = "Daniel Karski CV"
+const description = "Daniel Karski CV"
 
 const Seo = () => {
   const { profileImage } = useStaticQuery(query)
@@ -44,7 +44,7 @@ export default Seo
 
 export const query = graphql`
   query {
-    profileImage: file(relativePath: { eq: "profile.png" }) {
+    profileImage: file(relativePath: { eq: "profile.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 250, quality: 100) {
           ...GatsbyImageSharpFluid

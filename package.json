@@ -1,8 +1,8 @@
 {
-  "name": "minimal-resume-theme",
+  "name": "cv",
   "version": "2.0.0",
-  "description": "Gatsby.js & Styled Components - Minimal Resume Theme",
-  "homepage": "https://dkarski.github.io/minimal-resume-theme/",
+  "description": "Daniel Karski CV",
+  "homepage": "https://dkarski.github.io/cv/",
   "keywords": [
     "minimal",
     "resume",

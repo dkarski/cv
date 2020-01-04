@@ -2,7 +2,7 @@ import * as path from "path"
 import { Theme } from "./src/shared/theme"
 
 module.exports = {
-  pathPrefix: "/minimal-resume-theme",
+  pathPrefix: "/cv",
   siteMetadata: {
     siteUrl: makeSiteUrl(),
   },
@@ -10,8 +10,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: "Minimal Resume Theme",
-        short_name: "resume",
+        name: "Daniel Karski CV",
+        short_name: "cv",
         start_url: "/",
         background_color: Theme.colors.white,
         theme_color: Theme.colors.main,

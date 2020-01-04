@@ -47,17 +47,7 @@ const Header = () => {
   const {
     profileImage,
     dataJson: {
-      header: {
-        name,
-        position,
-        location,
-        email,
-        phone,
-        facebookUrl,
-        linkedinUrl,
-        stackoverflowUrl,
-        githubUrl,
-      },
+      header: { name, position, location, email, phone, webistes },
     },
   } = useStaticQuery(query)
 
@@ -72,59 +62,29 @@ const Header = () => {
           {position}
         </Trafalgar>
         <Column mb={["small", "small", "small", "small"]}>
-          {location && (
-            <TextIcon>
-              <Icon className="icon-location" />
-              {location}
-            </TextIcon>
-          )}
-          {email && (
-            <TextIconLink rel="noopener noreferrer" target="_blank" href={`mailto:${email}`}>
-              <Icon className="icon-envelope" />
-              {email}
-            </TextIconLink>
-          )}
-          {phone && (
-            <TextIconLink rel="noopener noreferrer" target="_blank" href={`mailto:${phone}`}>
-              <Icon className="icon-phone" />
-              {phone}
-            </TextIconLink>
-          )}
+          <TextIcon>
+            <Icon className="icon-location" />
+            {location}
+          </TextIcon>
+          <TextIconLink rel="noopener noreferrer" target="_blank" href={`mailto:${email}`}>
+            <Icon className="icon-envelope" />
+            {email}
+          </TextIconLink>
+          <TextIconLink rel="noopener noreferrer" target="_blank" href={`mailto:${phone}`}>
+            <Icon className="icon-phone" />
+            {phone}
+          </TextIconLink>
         </Column>
 
         <IconLinkButtonContainer>
-          {facebookUrl && (
+          {webistes.map(({ icon, url }) => (
             <IconLinkButton
               rel="noopener noreferrer"
               target="_blank"
-              href={facebookUrl}
-              iconClassName="icon-facebook2"
+              href={url}
+              iconClassName={icon}
             />
-          )}
-          {linkedinUrl && (
-            <IconLinkButton
-              rel="noopener noreferrer"
-              target="_blank"
-              href={linkedinUrl}
-              iconClassName="icon-linkedin"
-            />
-          )}
-          {stackoverflowUrl && (
-            <IconLinkButton
-              rel="noopener noreferrer"
-              target="_blank"
-              href={stackoverflowUrl}
-              iconClassName="icon-stackoverflow"
-            />
-          )}
-          {githubUrl && (
-            <IconLinkButton
-              rel="noopener noreferrer"
-              target="_blank"
-              href={githubUrl}
-              iconClassName="icon-github"
-            />
-          )}
+          ))}
         </IconLinkButtonContainer>
       </Column>
     </HeaderContainer>
@@ -135,7 +95,7 @@ export default Header
 
 export const query = graphql`
   query {
-    profileImage: file(relativePath: { eq: "profile.png" }) {
+    profileImage: file(relativePath: { eq: "profile.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 250, quality: 100) {
           ...GatsbyImageSharpFluid
@@ -149,10 +109,10 @@ export const query = graphql`
         location
         email
         phone
-        facebookUrl
-        linkedinUrl
-        stackoverflowUrl
-        githubUrl
+        webistes {
+          icon
+          url
+        }
       }
     }
   }
