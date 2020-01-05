@@ -71,3 +71,6 @@ yarn-error.log
 /.idea
 /public
 *.graphql
+
+id_rsa.pub
+id_rsa

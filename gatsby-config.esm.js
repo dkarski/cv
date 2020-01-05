@@ -2,7 +2,6 @@ import * as path from "path"
 import { Theme } from "./src/shared/theme"
 
 module.exports = {
-  pathPrefix: "/cv",
   siteMetadata: {
     siteUrl: makeSiteUrl(),
   },
