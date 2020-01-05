@@ -19,7 +19,7 @@ const Projects = () => {
 
   return (
     <Box as="section">
-      <SectionCanon>Best Project</SectionCanon>
+      <SectionCanon>Best Projects</SectionCanon>
       {projects.map(({ title, role, description, webistes, subprojects }) => (
         <Box mb={["regular", "regular", "regular", "regular"]}>
           <Box mb={["small", "small", "small", "small"]}>

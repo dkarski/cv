@@ -4,7 +4,6 @@
     "position": "Front-end developer",
     "location": "Warsaw, Poland",
     "email": "daniel.karski5q@gmail.com",
-    "location": "Warsaw, Poland",
     "phone": "797393110",
     "webistes": [
       {
@@ -25,22 +24,22 @@
       }
     ]
   },
-  "summary": "My biggest passion is programming. The best experience that I have gained was in application web development. I have decided to escalate my knowledge in the Javascript area. The reason why I have chosen it is that solving business problems by way of this gives me satisfaction.",
+  "summary": "My biggest passion is programming. I have gained the most experience in web application development. I have decided to escalate my knowledge in the Javascript area. The reason I have chosen it is that this way of solving business problems brings me a lot of satisfaction.",
   "experiences": [
     {
       "title": "Front-end Developer Polidea",
       "date": "04.2019",
       "roles": [
         "Provided a content management system to Polidea website",
-        "Mostly application development with the use of React",
-        "Creation of creation query form by use ohmlang Parser"
+        "Application development with the use of React",
+        "Implementedmodule to recreate and create string query in UI by use ohm lang Parser"
       ]
     },
     {
       "title": "Front-end Developer Connectmedica",
       "date": "06.2017 - 02.2019",
       "roles": [
-        "Mostly application development with the use of Angular, WebSocket, GraphQL, ngrx",
+        "Application development with the use of Angular, WebSocket, GraphQL, ngrx",
         "Creation of interactive canvas map with the use of Konva.js library",
         "Creation of video call application with a use of Opentok (WebRTC)",
         "Recruitment of developers"
@@ -54,7 +53,7 @@
       ]
     },
     {
-      "title": "Front-end Developer Kodarnia",
+      "title": "Front-end Developer Kodernia",
       "date": "04.2016 – 07.2016",
       "roles": [
         "Plugin and library development with a use of JS, jQuery",
@@ -66,7 +65,7 @@
     {
       "title": "Luck",
       "role": "CEO, Full Stack Developer",
-      "description": "The application to help to match each other in the group to give gifts for between your friends on St. Nicholas’ Day. Developed project from every side: frontend, backend, architecture, CI, deploy. After that,  responsibility for marketing and consulting in the design process. The project was started to determined to broaden horizons so it’s a reason why I decided to don’t used a popular framework to generate API or ready solutions do deploy.",
+      "description": "The application to help to match each other in the group of friends to exchange gifts on St. Nicholas’ Day. Developed project from every side: frontend, backend, architecture, CI, deploy. After that, responsibility for marketing and consulting in the design process. The project was started to broaden horizons so it’s a reason why I have decided not to use popular frameworks to generate API or any ready deployment solutions.",
       "webistes": [
         {
           "icon": "icon-earth",
