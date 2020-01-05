@@ -6,9 +6,14 @@ import { Box } from "../shared/Box"
 import { Column, Flex } from "../shared/Flex"
 import SectionCanon from "../shared/SectionCanon"
 import { List } from "../shared/List"
+import media from "../shared/media"
 
 const SkillColumn = styled(Column)`
-  flex: 1;
+  flex: 1 100%;
+
+  ${media.greaterThan("mobile")`
+    flex: 1;
+  `}
 `
 
 const Skills = () => {
@@ -21,8 +26,8 @@ const Skills = () => {
   return (
     <Box as="section">
       <SectionCanon>Skills</SectionCanon>
-      <Flex mb={["regular", "regular", "regular", "regular"]}>
-        <SkillColumn>
+      <Flex flexWrap="wrap" mb={["regular", "regular", "regular", "regular"]}>
+        <SkillColumn mb={["xsmall", null]}>
           <Trafalgar textStyle="bold" mb={["xsmall", "xsmall", "xsmall", "xsmall"]}>
             Working knowledge
           </Trafalgar>
