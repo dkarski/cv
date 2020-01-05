@@ -45,6 +45,7 @@ module.exports = {
     "gatsby-transformer-json",
     `gatsby-plugin-sharp`,
     "gatsby-plugin-remove-trailing-slashes",
+    `gatsby-plugin-preload-fonts`,
   ],
 }
 
