@@ -13,7 +13,7 @@ jobs:
       - docker
     script:
       - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
-      - yarn install && yarn build
+      - TRACKING_ID=$TRACKING_ID yarn install && yarn build
       - mv public server/
       - docker build --pull -t $IMAGE_NAME server/
       - docker push $IMAGE_NAME

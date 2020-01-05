@@ -41,6 +41,15 @@ module.exports = {
         path: path.join(__dirname, `src`, `data`),
       },
     },
+    {
+      resolve: "gatsby-plugin-google-analytics",
+      options: process.env.TRACKING_ID
+        ? {
+            trackingId: process.env.TRACKING_ID,
+            anonymize: true,
+          }
+        : null,
+    },
     `gatsby-transformer-sharp`,
     "gatsby-transformer-json",
     `gatsby-plugin-sharp`,
