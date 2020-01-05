@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://dkarski.github.io/sitemap.xml
+Host: https://dkarski.github.io
