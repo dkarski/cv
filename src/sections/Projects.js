@@ -33,7 +33,7 @@ const Projects = () => {
             <List mt={["xsmall", "xsmall", "xsmall", "xsmall"]}>
               {webistes.map(({ icon, url }) => (
                 <li>
-                  <TextIconLink rel="noopener noreferrer" target="_blank" href={icon}>
+                  <TextIconLink rel="noopener noreferrer" target="_blank" href={url}>
                     <Icon className={icon} />
                     {url}
                   </TextIconLink>
@@ -51,7 +51,7 @@ const Projects = () => {
               <List mt={["xsmall", "xsmall", "xsmall", "xsmall"]}>
                 {webistes.map(({ icon, url }) => (
                   <li>
-                    <TextIconLink rel="noopener noreferrer" target="_blank" href={icon}>
+                    <TextIconLink rel="noopener noreferrer" target="_blank" href={url}>
                       <Icon className={icon} />
                       {url}
                     </TextIconLink>
