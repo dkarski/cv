@@ -70,7 +70,7 @@ const Header = () => {
             <Icon className="icon-envelope" />
             {email}
           </TextIconLink>
-          <TextIconLink rel="noopener noreferrer" target="_blank" href={`mailto:${phone}`}>
+          <TextIconLink rel="noopener noreferrer" target="_blank" href={`tel:${phone}`}>
             <Icon className="icon-phone" />
             {phone}
           </TextIconLink>
