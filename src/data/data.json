@@ -32,7 +32,7 @@
       "roles": [
         "Provided a content management system to Polidea website",
         "Application development with the use of React",
-        "Implementedmodule to recreate and create string query in UI by use ohm lang Parser"
+        "Implemented module to recreate and create string query in UI by use ohm lang Parser"
       ]
     },
     {
@@ -166,7 +166,7 @@
       "strapi CMS",
       "canvas, konva.js",
       "ohmlang - js parser",
-      "webpack, rollup, grunt",
+      "webpack, babel, rollup, grunt",
       "angular material, react material-ui",
       "sccs, styled-components, styled-systems",
       "storybook"
