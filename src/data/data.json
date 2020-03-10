@@ -27,7 +27,7 @@
   "summary": "My biggest passion is programming. I have gained the most experience in web application development. I have decided to escalate my knowledge in the Javascript area. The reason I have chosen it is that this way of solving business problems brings me a lot of satisfaction.",
   "experiences": [
     {
-      "title": "Front-end Developer Polidea",
+      "title": "Front-end Engineer Polidea",
       "date": "04.2019",
       "roles": [
         "Provided a content management system to Polidea website",
@@ -36,7 +36,7 @@
       ]
     },
     {
-      "title": "Front-end Developer Connectmedica",
+      "title": "Front-end Engineer Connectmedica",
       "date": "06.2017 - 02.2019",
       "roles": [
         "Application development with the use of Angular, WebSocket, GraphQL, ngrx",
@@ -46,14 +46,14 @@
       ]
     },
     {
-      "title": "Front-end Developer Lingaro",
+      "title": "Front-end Engineer Lingaro",
       "date": "08.2016 - 03.2017",
       "roles": [
         "Application development with a use of TypeScript, Angular, Ionic, Cordova"
       ]
     },
     {
-      "title": "Front-end Developer Kodernia",
+      "title": "Front-End Developer Kodernia",
       "date": "04.2016 – 07.2016",
       "roles": [
         "Plugin and library development with a use of JS, jQuery",
