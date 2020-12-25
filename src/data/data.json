@@ -27,8 +27,13 @@
   "summary": "My biggest passion is programming. I have gained the most experience in web application development. I have decided to escalate my knowledge in the Javascript area. The reason I have chosen it is that this way of solving business problems brings me a lot of satisfaction.",
   "experiences": [
     {
+      "title": "Front-end Engineer Mudita",
+      "date": "06.2020",
+      "roles": []
+    },
+    {
       "title": "Front-end Engineer Polidea",
-      "date": "04.2019",
+      "date": "04.2019 - 06.2020",
       "roles": [
         "Provided a content management system to Polidea website",
         "Application development with the use of React",
